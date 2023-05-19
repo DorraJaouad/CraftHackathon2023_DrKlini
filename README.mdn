@@ -13,23 +13,35 @@ LLM chatbots: link to ADA chatbot
 
 Our application utilizes the powerful ADA chatbot to effectively gather key symptoms from patients and accurately categorize their case as high, medium, or low priority. This categorization plays a crucial role in dispatching patients to the appropriate medical facility at the right time. Following the chatbot conversation, users are provided with self-action recommendations and/or redirected to the booking system. In urgent situations, the system promptly alerts the user to seek emergency medical assistance. 
 
-**dynamic Booking system**
+**Dynamic Booking system**
 
-a- Data source
-The Database: the project won't need an excessive workload on the data collection. It will link EESZT database and extracts the needed information such as medical records, prescriptions and prospected controls  and also the data related to the medical equipments distribution and healthcare amenities capacities in Hungary.
+# Data Source
 
-b- The Dispatching process
-We call this process Delta and it depends on the label output
-<img width="3923" alt="Untitled (1)" src="https://github.com/DorraJaouad/CraftHackathon2023_DrKlini/assets/84044328/173a0362-e6c9-4baa-a47f-5b5ef37a5808">
+The DrKlini project leverages the EESZT database as the primary data source. This eliminates the need for extensive data collection efforts. The application extracts relevant information such as medical records, prescriptions, prospective controls, as well as data pertaining to the distribution of medical equipment and the capacity of healthcare facilities in Hungary.
 
-c- Post booking 
-We provide a cool feature to the patient upon booking information
-The location guide: Menetrendek [ UI Screen ]
+# Dispatching Process
+
+We have named the dispatching process "Delta," which operates based on the label output. The label categorization of a patient's case (high, medium, or low priority) determines the appropriate dispatching action. Please refer to the following diagram for an overview of the Delta process:
+
+![Dispatching Process](https://github.com/DorraJaouad/CraftHackathon2023_DrKlini/assets/84044328/173a0362-e6c9-4baa-a47f-5b5ef37a5808)
+
+# Post Booking
+
+After a successful booking, we offer an exciting feature to the patient:
+
+**Location Guide: Menetrendek**
+
+This feature provides a convenient location guide for patients. It assists them in finding the necessary information related to schedules, routes, and transportation options.
+
 
 **Clinical Interaction**
 
 a- Pharmacy ( stock checking ) 
-b- Diagnostic Tests ( Booking not yet done diagnostic, Reviewing past diagnostics ) 
+
+b- Diagnostic Tests 
+
+Patients can book diagnostic tests directly through the application. Additionally, they have the option to review their past diagnostic results. This empowers patients to stay informed about their health status and track their progress.
+
 c-  Medical Checkup 
 ( previous dates, next checkups) 
 
