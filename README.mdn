@@ -40,13 +40,15 @@ a- Pharmacy ( stock checking )
 
 b- Diagnostic Tests 
 
+Once the doctor examines the patient and prescribes an exploration to do , it will be recorded in the patient's record hence rendered on the app.
 Patients can book diagnostic tests directly through the application. Additionally, they have the option to review their past diagnostic results. This empowers patients to stay informed about their health status and track their progress.
 
 c-  Medical Checkup 
-( previous dates, next checkups) 
+The application provides information on previous medical checkups, including the dates of those checkups. Patients can also view upcoming checkup dates to stay proactive about their healthcare.
 
-**Medical records with dates**
-The patient will have access to the past medical explorations such as CT and blood test. He will see other charachteristics such as chronic illness, smoking habits, bone injury ..
+**Medical records**
+
+patients can view additional characteristics such as chronic illnesses, smoking habits, and past bone injuries. This enables patients to have a comprehensive overview of their medical history and make more informed healthcare decisions.
 
 # Current solutions in the market
 
