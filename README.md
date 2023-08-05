@@ -4,7 +4,7 @@
 
 DrKlini is a mobile application that efficiently assigns patients to medical facilities in Hungary based on their case priority. By seamlessly integrating an AI chatbot and a dynamic booking system, high-priority patients with conditions like pleurisy or acute myocardial infarction (heart attack) receive prompt attention and care.
 
-
+Youtube video : [Pitch video](https://www.youtube.com/watch?v=_qevEdqE8qc&ab_channel=dorrajaouad)
 #  Services
 
 ## Medical Chatbot with categorization functionality
